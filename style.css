@@ -1,0 +1,74 @@
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+body {
+  color: #003049;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+  background-color: #eae2b7;
+}
+
+/* Set the font family for any h1, h2, or h3 heading */
+h1 {
+  font-family: "Playfair Display", Times;
+  text-align: center;
+    }
+h2 {
+    font-family: "Playfair Display", Times;
+  text-align: center;
+      }
+h3 {
+  font-family: "Playfair Display", Times, serif;
+  text-align: center;
+}
+nav {
+  font-family: "Playfair Display";
+  text-align: center;
+}
+
+article {
+  padding: 50px 0;
+}
+
+article div {
+  width: 100%;
+  text-align: center;
+}
+
+p {
+  line-height: 1.5;
+}
+
+a:link { 
+  color:#d62828
+}
+
+a:visited {
+  color:#d62828
+}
+
+a:hover {
+  color:#f77f00
+}
+/* The div container constrains the content width within the main container to 600px */
+div {
+  margin: auto;
+  width: 600px;
+}
+
+img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  text-align: center;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+/* Add your solution below */
+
+.image-circle { border-radius: 50%;
+               border: 2px solid #003049;
+}
